@@ -109,7 +109,7 @@ function Clock(countdown, callback) {
   setTimeout(updateClock, 500);
 }
 
-var deadline = new Date("August 04, 2021 21:00:00");
+var deadline = new Date("August 04, 2021 17:00:00");
 var c = new Clock(deadline, function () {
   console.log("Ding Dong");
 });
