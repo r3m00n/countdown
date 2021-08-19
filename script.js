@@ -109,8 +109,8 @@ function Clock(countdown, callback) {
   setTimeout(updateClock, 500);
 }
 
-var deadline = new Date("August 04, 2021 17:00:00");
+var deadline = new Date("August 20, 2021 09:30:00");
 var c = new Clock(deadline, function () {
-  console.log("Ding Dong");
+  console.log("Juhu endlisch wieder Schule");
 });
 document.body.appendChild(c.el);
